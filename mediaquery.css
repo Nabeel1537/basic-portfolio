@@ -1,0 +1,131 @@
+@media (max-width: 768px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        padding: 10px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+      h3 {
+        font-size: 20px;
+      }  
+
+    nav {
+        flex-direction: column;
+        height: 180px;
+        font-size: large;
+    }
+
+    nav .left {
+        font-size: 3rem;
+    }
+
+    nav .right {
+        font-size: 1.5rem;
+    }
+
+    .experience-card {
+        max-width: 600px;
+        width: 90%;
+        margin: 0 auto;
+      }
+
+
+    .firstSection>div {
+        width: 70%
+    }
+
+    .rightSection {
+        display: none;
+    }
+
+    .leftSection {
+        font-size: 4rem;
+    }
+
+    .leftSection .btn {
+
+        padding: 22px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border: 6px;
+        font-size: 28px;
+        cursor: pointer;
+
+    }
+
+    .secondsection {
+        margin: auto;
+        height: 100vh;
+
+
+    }
+
+    .text-gray {
+        font-size: 2rem;
+        margin: 0 100px;
+    }
+
+    .secondsection h1 {
+        font-size: 3rem;
+        margin: 0 70px;
+    }
+
+    .secondsection .box {
+
+        width: 70vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+
+    .secondsection .vertical {
+        height: 130px;
+        width: 5px;
+        background-color: white;
+        margin: 0px 100px;
+    }
+        .image-top {
+            
+            width: 50px;
+            position: relative;
+            top: 60px;
+            left: 19px;
+        }
+
+
+
+        .vertical-title {
+            position: relative;
+            top: 60px;
+            left: -220px;
+            width: 223px;
+            font-size: 25px;
+        }
+
+
+
+
+        .vertical-desc {
+            position: relative;
+            top: -10px;
+            color: gray;
+            width: 269px;
+            font-size: 13px;
+            left: 29px;
+        }
+
+
+    }

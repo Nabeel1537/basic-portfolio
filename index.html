@@ -8,183 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: rgb(0, 0, 33);
-            color: white;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        main hr {
-            border: 0;
-            background: rgb(153, 153, 226);
-            height: 1.2px;
-            margin: 20px 84px;
-
-        }
-
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(18, 18, 62);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li a:hover {
-
-            color: rgb(172, 172, 238);
-        }
-
-        .left {
-            font-size: 1.5rem;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            margin: 50px 0;
-            align-items: center;
-        }
-
-        .firstSection>div {
-            width: 40%;
-        }
-
-        .leftSection {
-            font-size: 2.5rem;
-
-        }
-
-        .leftSection .btn{
-            padding: 12px;
-            background: #1e2167;
-            color: white;
-            border: 2px solid white;
-            border: 6px;
-            font-size: 20px;
-            cursor: pointer;
-
-        }
-
-        .leftSection .btn:hover{
-            background: rgb(170 107 228);
-            
-        }
-
-        .rightSection img {
-            width: 80%;
-            margin: 50px 0;
-        }
-
-        .secondsection {
-            max-width: 80vw;
-            margin: auto;
-            height: 80vh;
-        }
-
-        .secondsection h1 {
-            font-size: 1.9rem;
-        }
-
-        .secondsection .box {
-            background: white;
-            width: 76vw;
-            height: 2px;
-            margin: 56px 0;
-            display: flex;
-        }
-
-        .secondsection .vertical {
-            height: 93px;
-            width: 1px;
-            background-color: white;
-            margin: 0 100px;
-        }
-
-        .purple {
-            color: rgb(170, 107, 228);
-        }
-
-        .text-gray {
-            color: gray;
-        }
-
-        #element {
-            color: rgb(170, 107, 228);
-        }
-
-        .image-top {
-            width: 30px;
-            position: relative;
-            top: -32px;
-            left: -9px;
-        }
-
-        .vertical-title {
-
-            position: relative;
-            top: 75px;
-            width: 150px;
-            font-size: 14px;
-        }
-
-        .vertical-desc {
-
-            position: relative;
-            top: 86px;
-            color: gray;
-            width: 150px;
-            font-size: 10px;
-        }
-
-        footer {
-            background-color: rgb(20, 12, 28);
-            
-
-        }
-
-        .footer {
-            display: flex;
-            padding: 23px 122px;
-            justify-content: space-evenly;
-        }
-
-        .footer ul {
-            list-style: none;
-        }
-         
-       .footer > div{
-        width: 123px;
-       } 
-
-       .footer-rights{
-        text-align: center;
-        color: gray;
-        padding: 12px 0;
-       }
-    </style>
+    <link href="style.css" rel="stylesheet">
+    <link href="mediaquery.css" rel="stylesheet">
+    <link href="mediaquerymobile.css" rel="stylesheet">
 </head>
 
 <body>
@@ -193,7 +19,7 @@
             <div class="left">Nabeel's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Projects</a></li>
@@ -209,8 +35,8 @@
                 <div>and I am a passionate</div>
                 <span id="element"></span>
                 <div>
-                <button class="btn">Download Resume</button>
-                <button class="btn">Visit Github</button>
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
                 </div>
             </div>
             <div class="rightSection">
@@ -229,8 +55,7 @@
                     </div>
                     <div class="vertical-desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit beatae voluptas velit
-                        nulla distinctio nemo adipisci aspernatur, repellendus cumque unde numquam ipsum, ipsam rem.
-                        Est, quis beatae. Quaerat, architecto?
+
                     </div>
                 </div>
                 <div class="vertical">
@@ -240,8 +65,6 @@
                     </div>
                     <div class="vertical-desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit beatae voluptas velit
-                        nulla distinctio nemo adipisci aspernatur, repellendus cumque unde numquam ipsum, ipsam rem.
-                        Est, quis beatae. Quaerat, architecto?
                     </div>
                 </div>
                 <div class="vertical">
@@ -251,8 +74,6 @@
                     </div>
                     <div class="vertical-desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit beatae voluptas velit
-                        nulla distinctio nemo adipisci aspernatur, repellendus cumque unde numquam ipsum, ipsam rem.
-                        Est, quis beatae. Quaerat, architecto?
                     </div>
                 </div>
                 <div class="vertical">
@@ -262,8 +83,6 @@
                     </div>
                     <div class="vertical-desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit beatae voluptas velit
-                        nulla distinctio nemo adipisci aspernatur, repellendus cumque unde numquam ipsum, ipsam rem.
-                        Est, quis beatae. Quaerat, architecto?
                     </div>
                 </div>
                 <div class="vertical">
@@ -273,8 +92,6 @@
                     </div>
                     <div class="vertical-desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil impedit beatae voluptas velit
-                        nulla distinctio nemo adipisci aspernatur, repellendus cumque unde numquam ipsum, ipsam rem.
-                        Est, quis beatae. Quaerat, architecto?
                     </div>
 
                 </div>
